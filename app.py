@@ -28,10 +28,12 @@ st.set_page_config(
 
 @st.cache_resource
 def load_models():
-
     model = tf.keras.models.load_model(
-        "airline_sentiment_word2vec.keras"
-    )
+    "airline_sentiment_word2vec.keras",
+    compile=False
+   )
+
+
 
     word2vec = Word2Vec.load(
         "word2vec.model"
