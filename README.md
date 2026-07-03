@@ -271,11 +271,6 @@ streamlit run app.py
 
 # 📸 Application Preview
 
-Add screenshots of your Streamlit application here.
-
-Example
-
-```
 Home Page
 <img width="1907" height="825" alt="Screenshot 2026-07-03 141127" src="https://github.com/user-attachments/assets/d845cb47-d64b-41c7-9095-01cfe31aabf9" />
 
@@ -290,8 +285,6 @@ Prediction Page
 - Deploy on Hugging Face Spaces
 - Add Explainable AI (SHAP/LIME)
 - Improve Accuracy using Bidirectional LSTM
-
----
 
 # 👨‍💻 Author
 
